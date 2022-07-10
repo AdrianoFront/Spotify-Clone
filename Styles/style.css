@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+main {
+  background: #FFD4DB;
+}
+
+main header {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  background: #000000;
+  height: 80px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  padding-right: 30px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.ul-list {
+  text-decoration: none;
+  color: white
+}
+
+
+article {
+  background: #FFD4DB; 
+  padding: 15px 20px 50px;
+}
+
+.termos {
+  font-size: 12px;
+}
+
+#logo-image {
+  max-width: 131px;
+  max-height: 41px;
+  margin: 20px 0 0;
+  padding-left: 60px;
+}
+
+.title-primary {
+  font-size: 40px;
+}
+
+.subtitle {
+  font-size: 24px;
+}
+
+.btn-start {
+  border-radius: 500px;
+  font-size: 14px;
+  padding-block: 14px;
+  padding-inline: 32px;
+  color: #FFFFFF;
+  background-color: #191414;
+  border: 2px solid rgb(25, 20, 20);
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-plans {
+  border-radius: 500px;
+  font-size: 14px;
+  padding-block: 14px;
+  padding-inline: 32px;
+  color: #000000;
+  font-weight: bold;
+  background-color: #FFD4DB;
+  border: 2px solid rgb(25, 20, 20);
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.title-why-premium {
+  width: 670px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.container-services {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 1170px;
+  margin: 0 90px;
+  padding: 75px 15px;
+}
+
+.img-demo {
+  width: 142px;
+}
+
+h3 {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+h4 {
+  font-size: 16px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+#plans {
+  display: flex;
+  max-width: 1000px;
+  align-items: center;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.assinatura {
+  padding-bottom: 16px;
+  box-shadow: rgba(0, 0, 0 / 30%) 0px 0px 8px;
+  margin-top: 0px;
+  max-width: 250px;
+  box-shadow: 0 0 11px grey;
+}
