@@ -24,11 +24,14 @@ header nav ul {
   text-decoration: none;
 }
 
-.ul-list {
+li a {
   text-decoration: none;
   color: white
 }
 
+ul p {
+  color: white
+}
 
 article {
   background: #FFD4DB; 
