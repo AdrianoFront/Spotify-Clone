@@ -29,6 +29,11 @@ li a {
   color: white
 }
 
+header nav ul li p{
+  display: flex;
+  justify-content: space-around;
+}
+
 ul p {
   color: white
 }

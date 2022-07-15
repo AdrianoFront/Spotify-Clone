@@ -4,8 +4,25 @@
     padding-right: 20vh;
   }
 
-  .nav-menu {
-  
+  header{
+    margin: 0 auto;
+    }
+
+  .btn-main .btn-start{
+  display: inline-block;
+  width: 70%;
+  align-items: center;
   }
   
+  .btn-main .btn-plans{
+    display: inline-block;
+    width: 70%;
+    margin-top: 3vh;
+    flex-direction: center;
+    }
+    
+   section {
+    display: block;
+  }
+
 }
