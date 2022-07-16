@@ -8,25 +8,48 @@
     margin: 0 auto;
     }
 
-  .btn-main .btn-start{
+  .btn-main .btn-start {
   display: inline-block;
   width: 70%;
   align-items: center;
   }
   
-  .btn-main .btn-plans{
+  .btn-main .btn-plans {
     display: inline-block;
     width: 70%;
     margin-top: 3vh;
     flex-direction: center;
     }
-    
+    .section-why {
+    display: block;    
+    }
+
+    .title-why-premium {
+    font-size: 28px;
+    text-align: center;
+    }
+
     .container-services {
-    display: flex;
-    flex-direction: inline;
+    margin-top: 0 auto;
+    max-width: 100%;
+    box-sizing: border-box;
+    display: block;
+    text-align: left;
+    /*display: flex;*/
+    /*flex-direction: collumn;*/
     flex-wrap: wrap;
-    max-width: 450px;
-    gap: 5px;
+    /*max-width: 10px;
+    gap: 5px;*/
   }
+
+  .plans {
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    box-shadow: rgb(255 255 255) 0px 8px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;
+  }
+
 
 }
