@@ -115,10 +115,6 @@ article {
   padding: 75px 15px;
 }
 
-.offline {
-  display: flex;
-}
-
 h2 {
   font-weight: bold;
   margin-bottom: 10px;
@@ -145,13 +141,14 @@ h4 {
 
 #plans {
   display: flex;
+  vertical-align: top;
   max-width: 1000px;
   align-items: center;
   margin: 0 auto;
   gap: 20px;
 }
 
-.assinatura {
+.signature-options {
   padding-bottom: 16px;
   box-shadow: rgba(0, 0, 0 / 30%) 0px 0px 8px;
   margin-top: 0px;
